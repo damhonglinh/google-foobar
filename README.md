@@ -21,5 +21,9 @@ I found this bug when doing level-4 challenge. It was a huge pain because no mat
 I already reported this bug to Foobar but no response yet. I share this bug so that you won't have a painful time like I did.
 
 ## Notes
-+ Python is not my main language and I barely knew Python so I usually started with Ruby first for quicker prototype solutions. Ruby codes here are just prototype so please ignore Ruby codes and focus on Python codes only.
-+ My codes are quite verbose to better explain my thinkings and also for self-documented codes (hopefully). 
+Python is not my main language and I barely knew Python so I usually started with Ruby first for quicker prototype solutions. Ruby codes here are just prototype so please ignore Ruby codes and focus on Python codes only.
+
+My codes are quite verbose to better explain my thinkings and also for self-documented codes (hopefully). 
+
+## How did I get to Foobar?
+I was trying to use [Google Chart](https://developers.google.com/chart/) so I did a lot of searches about it. Unlike others, I didn't see a big banner from Foobar in Google search results. Instead, on Google pages (both Google Chart pages and Google search results pages), I noticed there was a small Foobar icon (probably 50x50 pixels) at top right corner. So the invitation was not very visible. 
