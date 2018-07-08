@@ -1,6 +1,7 @@
 # google-foobar
 This repo is an archive for my solutions for Google Foobar challenges, and also how I approached to them in a dairy-like fashion.
-This repo can also be useful for others as a reference to discuss or compare each other's solutions.
+
+This repo can also be useful for others as a reference to learn or compare each other's solutions. I usually do this but only **after I submitted** the solution.
 
 ## Tips
 
