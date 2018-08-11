@@ -58,7 +58,7 @@ decrease numbers, `substract` seems a better choice than add.
 In that case, `add` is better. So we need to check 1 step ahead the number resulting from the current number that is going to be divided.
 
 # Pseudo code
-```
+```ruby
 def find_steps_count(num, cur_count = 0)
   cur_count += if num == 3
     2

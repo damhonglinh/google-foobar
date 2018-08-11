@@ -92,7 +92,7 @@ those paths that overlap shorter paths.
 
 ## Code to reproduce bug
 
-```
+```ruby
 global_increment_count = 0
 
 def answer(dims, ur_pos, guard_pos, dist):

@@ -58,6 +58,7 @@ This challenge is quite straightforward so there is nothing special.
 Optimize: substracting is slow. So using divide and MOD is faster.
 
 ## Pseudo code:
+```ruby
   count = 0
   while true:
     return count        if a == 1 and b == 1
@@ -67,3 +68,4 @@ Optimize: substracting is slow. So using divide and MOD is faster.
     else:
       b = b - a
     count += 1
+```
