@@ -85,10 +85,10 @@ those paths that overlap shorter paths.
 + Finding the bug was a painful time. My codes always failed at test 10.
 + After a massive amount of retries and brute force, I found the expected result of test 10 was
   the same value as my codes' result running in my localhost but they still always failed!
-  After more massive amount of retries, and a bit of luck, I found there was a bug.
-+ When my test was always faileing at test 10, I even suspected that FooBar sandbox somehow used less precision
+  After more massive amount of retries, and a bit of luck, I found there was a FooBar bug.
++ When my test was always failing at test 10, I even suspected that FooBar sandbox somehow used less precision
   in `math.atan2` intentionally (I then confirmed it doesn't); or I even suspected that the hashing algorithm
-  in `dict()` in FooBar sandbox was broken, having collisions so the len of dict() went 'random' (I then confirmed it isn't).
+  in `dict()` in FooBar sandbox was broken, having collisions so the len of a `dict` went 'random' (I then confirmed it isn't).
 
 ## Code to reproduce bug
 
