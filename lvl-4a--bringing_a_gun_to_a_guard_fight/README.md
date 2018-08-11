@@ -1,3 +1,4 @@
+# Challenge description
 ```
 Bringing a Gun to a Guard Fight
 ===============================
@@ -55,13 +56,13 @@ Output:
 ```
 
 
-### Notes
+# Notes
 
 This is my favorite challange and this was when I found the bug on FooBar.
 
 This challenge was tricky so I wrote some matplot scripts to draw the rooms. I also wrote the code to reproduce the bug.
 
-### Algorithm summary
+# Algorithm summary
 
 + This bouncing problem is similar to infinite mirrors effect. This link can illustrate this very well:
   https://gamedev.stackexchange.com/a/154482/117081
@@ -76,7 +77,7 @@ This challenge was tricky so I wrote some matplot scripts to draw the rooms. I a
 those paths that overlap shorter paths.
 + Luckily, there was no edge case that `distance` = 10_000, and `dimensions` = (2, 3).
 
-### The bug
+# The bug
 
 + The bug is that that global variables are shared across 10 test cases in the same session.
 + I used global variables just to avoid passing around the test's inputs.
@@ -89,7 +90,7 @@ those paths that overlap shorter paths.
   in `math.atan2` intentionally (I then confirmed it doesn't); or I even suspected that the hashing algorithm
   in `dict()` in FooBar sandbox was broken, having collisions so the len of dict() went 'random' (I then confirmed it isn't).
 
-##### Code to reproduce bug
+## Code to reproduce bug
 
 ```
 global_increment_count = 0

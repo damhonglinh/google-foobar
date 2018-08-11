@@ -1,11 +1,11 @@
-### Challenge description
+# Challenge description
 ```
 Lovely Lucky LAMBs
 ==================
 
 Being a henchman isn't all drudgery. Occasionally, when Commander Lambda is feeling generous, she'll hand out Lucky LAMBs (Lambda's All-purpose Money Bucks). Henchmen can use Lucky LAMBs to buy things like a second pair of socks, a pillow for their bunks, or even a third daily meal!
 
-However, actually passing out LAMBs isn't easy. Each henchman squad has a strict seniority ranking which must be respected - or else the henchmen will revolt and you'll all get demoted back to minions again! 
+However, actually passing out LAMBs isn't easy. Each henchman squad has a strict seniority ranking which must be respected - or else the henchmen will revolt and you'll all get demoted back to minions again!
 
 There are 4 key rules which you must follow in order to avoid a revolt:
     1. The most junior henchman (with the least seniority) gets exactly 1 LAMB.  (There will always be at least 1 henchman on a team.)
@@ -39,11 +39,11 @@ Output:
     (int) 3
 ```
 
-### Notes
+# Notes
 
-+ The problem is about finding how many numbers are there in the sequence (FIBO sequence and GEO sequence), 
++ The problem is about finding how many numbers are there in the sequence (FIBO sequence and GEO sequence),
 so that SUM of those numbers are less than the input `total_lambs`.
 
-+ At first, my solution failed at test 10 but I didn't know why. So I tried to know what were the input in test 10.
-Then I found the flaw that can possibly reveal inputs of all test cases. If you notice the constant `TEST_CASES`, 
++ At first, my solution failed at test 10 but I didn't know why. So I tried to know what was the input in test 10.
+Then I found the flaw that can possibly reveal inputs of all test cases. If you notice the constant `TEST_CASES`,
 it contains inputs that I can find. I stopped at `2` because it was the input of test case 10.

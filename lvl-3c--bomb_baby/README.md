@@ -1,4 +1,4 @@
-### Challenge description
+# Challenge description
 ```
 Bomb, Baby!
 ===========
@@ -40,11 +40,11 @@ Output:
 ```
 
 
-### Notes
+# Notes
 
 This challenge is quite straightforward so there is nothing special.
 
-#### Algorithm summary:
+# Algorithm summary:
 
 + Loop inputs descendingly, from (M,F) to (1,1).
 + So that the problem is narrowed down to finding the next possible pair (descendingly)
@@ -57,7 +57,7 @@ This challenge is quite straightforward so there is nothing special.
 
 Optimize: substracting is slow. So using divide and MOD is faster.
 
-#### Pseudo code:
+## Pseudo code:
   count = 0
   while true:
     return count        if a == 1 and b == 1

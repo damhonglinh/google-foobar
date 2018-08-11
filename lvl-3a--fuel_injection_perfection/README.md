@@ -1,4 +1,4 @@
-### Challenge description
+# Challenge description
 ```
 Fuel Injection Perfection
 =========================
@@ -36,7 +36,7 @@ Output:
 ```
 
 
-### Notes
+# Notes
 
 + This is my favorite challenge since I had to go binary to find the solution (although in fact it's not very necessary
 to go binary, still it's much easier to look at the numbers in binary). And I believe my solution is pretty solid.
@@ -46,7 +46,7 @@ and it took me hours to figure out that the tests expected Integer while my solu
 
 + I try to use tail recursion but Python and Ruby don't optimize for tail recursion.
 
-#### Solution explain:
+# Solution explain:
 
 + In order to decrease a number, out of the 3 operations (`add, substract and divide`), `divide` is the
 fastest (in term of number of operations). So we use `divide` as much as possible.
@@ -57,7 +57,7 @@ decrease numbers, `substract` seems a better choice than add.
 + However, `substract` is not **always** better. It's worse when it results in an even number that when divided, becomes odd.
 In that case, `add` is better. So we need to check 1 step ahead the number resulting from the current number that is going to be divided.
 
-#### Pseudo code
+# Pseudo code
 ```
 def find_steps_count(num, cur_count = 0)
   cur_count += if num == 3
