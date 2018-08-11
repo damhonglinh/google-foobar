@@ -35,6 +35,7 @@ Output:
     (int) 5
 ```
 
+
 ### Notes
 
 + This is my favorite challenge since I had to go binary to find the solution (although in fact it's not very necessary
