@@ -68,13 +68,12 @@ This challenge was tricky so I wrote some matplot scripts to draw the rooms. I a
   https://gamedev.stackexchange.com/a/154482/117081
 + So, the solution to this bouncing problem can be simplified to couting all those mirrored rooms,
   which are inside the circle with the radius equal to `distance` input.
-
 + It's hard to write texts to explain a visual problem so you can see my drawings to understand more easily.
 + Each rectangle is a mirrored room. The red rectangle is the real room. Each room has a dot
   (your position) and a cross (guard position).
 + Basically, we need to count how many rectangles that have their dot inside the red circle.
 + That's the happy case. To handle edge cases, we need to substract those paths that hit ourselve first, and
-those paths that overlap shorter paths.
+  those paths that overlap shorter paths.
 + Luckily, there was no edge case that `distance` = 10_000, and `dimensions` = (2, 3).
 
 # The bug
@@ -84,7 +83,7 @@ those paths that overlap shorter paths.
   I'm not an advanced Python user so I suspect there is a better approach than using global variables.
 + Finding the bug was a painful time. My codes always failed at test 10.
 + After a massive amount of retries and brute force, I found the expected result of test 10 was
-  the same value as my codes' result running in my localhost but they still always failed!
+  the same value as my codes' result running in my localhost but they still always failed 🤬!
   After more massive amount of retries, and a bit of luck, I found there was a FooBar bug.
 + When my test was always failing at test 10, I even suspected that FooBar sandbox somehow used less precision
   in `math.atan2` intentionally (I then confirmed it doesn't); or I even suspected that the hashing algorithm

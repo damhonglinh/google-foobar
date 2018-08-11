@@ -68,4 +68,4 @@ Output:
 + So eventually, I had a workable solution, which was pretty slow and messy.
 + Still, a decent programming technique (cache) can compensate a bad algorithm.
 + After submitting, I learned that this problem is similar to Number Partitioning Problem, although I still don't know
-how to solve it properly.
+  how to solve it properly.
